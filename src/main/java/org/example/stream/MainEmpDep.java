@@ -14,7 +14,7 @@ public class MainEmpDep {
 
         ArrayList<Project> projects =  new ArrayList<>();
         projects.add(new Project("1","one","two","three"));
-        Employee employee=new Employee(101,"Amit","Development",projects, 10.0,"male");
+        Employee e1=new Employee(101,"Amit","Development",projects, 10.0,"male");
 
 
 System.out.println(projects);
