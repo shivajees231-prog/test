@@ -13,11 +13,17 @@ public class MainEmpDep {
     public static void main(String[] args) {
 
         ArrayList<Project> projects =  new ArrayList<>();
-        projects.add(new Project("1","one","two","three"));
-        Employee e1=new Employee(101,"Amit","Development",projects, 10.0,"male");
+
+        Employee e1=new Employee(101,"Amit","Development",projects, 10000.0,"male");
+        Employee e2=new Employee(101,"Amit","Development",projects, 10000.0,"male");
 
 
-System.out.println(projects);
+
+
+
+        //System.out.println(projects);
+
+
 
 
 
