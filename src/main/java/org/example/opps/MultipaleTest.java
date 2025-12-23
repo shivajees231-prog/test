@@ -1,10 +1,15 @@
 package org.example.opps;
 
+class Demo{
 
-
-interface  Add{
-    void add(int a,int b);
+   Demo(){
+       System.out.println("constructor called");
+   }
 
 }
 
+public static void main(String[] args){
 
+    Demo d = new Demo();
+    
+}
